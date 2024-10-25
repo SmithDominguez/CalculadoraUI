@@ -29,7 +29,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         exit = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         limpiar = new javax.swing.JButton();
         btn_2 = new javax.swing.JButton();
@@ -49,6 +48,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_resultado = new javax.swing.JLabel();
         btn_dividir = new javax.swing.JButton();
         img_resultado = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         txt_resultado1 = new javax.swing.JLabel();
 
         jLabel3.setText("jLabel3");
@@ -71,13 +71,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 20, 20));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/calculadora/Calculadora (5).png"))); // NOI18N
-        jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
-
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(54, 89, 129));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        limpiar.setBackground(new java.awt.Color(54, 89, 129));
         limpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB.png"))); // NOI18N
         limpiar.setBorder(null);
         limpiar.addActionListener(new java.awt.event.ActionListener() {
@@ -87,6 +84,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(limpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, 60, 60));
 
+        btn_2.setBackground(new java.awt.Color(54, 89, 129));
         btn_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-13.png"))); // NOI18N
         btn_2.setBorder(null);
         btn_2.addActionListener(new java.awt.event.ActionListener() {
@@ -96,6 +94,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 190, 60, 60));
 
+        btn_6.setBackground(new java.awt.Color(54, 89, 129));
         btn_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-10.png"))); // NOI18N
         btn_6.setBorder(null);
         btn_6.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +104,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, 60, 60));
 
+        btn_8.setBackground(new java.awt.Color(54, 89, 129));
         btn_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-8.png"))); // NOI18N
         btn_8.setBorder(null);
         btn_8.addActionListener(new java.awt.event.ActionListener() {
@@ -114,6 +114,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 70, 60, 60));
 
+        btn_1.setBackground(new java.awt.Color(54, 89, 129));
         btn_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-6.png"))); // NOI18N
         btn_1.setBorder(null);
         btn_1.addActionListener(new java.awt.event.ActionListener() {
@@ -123,6 +124,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 60, 60));
 
+        btn_0.setBackground(new java.awt.Color(54, 89, 129));
         btn_0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-5.png"))); // NOI18N
         btn_0.setBorder(null);
         btn_0.addActionListener(new java.awt.event.ActionListener() {
@@ -132,6 +134,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 60, 60));
 
+        btn_igual.setBackground(new java.awt.Color(54, 89, 129));
         btn_igual.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-3.png"))); // NOI18N
         btn_igual.setBorder(null);
         btn_igual.addActionListener(new java.awt.event.ActionListener() {
@@ -141,6 +144,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_igual, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 260, 60, 60));
 
+        btn_restar.setBackground(new java.awt.Color(54, 89, 129));
         btn_restar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-1.png"))); // NOI18N
         btn_restar.setBorder(null);
         btn_restar.addActionListener(new java.awt.event.ActionListener() {
@@ -150,6 +154,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_restar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 60, 60));
 
+        btn_sumar.setBackground(new java.awt.Color(54, 89, 129));
         btn_sumar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-2.png"))); // NOI18N
         btn_sumar.setBorder(null);
         btn_sumar.addActionListener(new java.awt.event.ActionListener() {
@@ -159,6 +164,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_sumar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 60, 60));
 
+        btn_7.setBackground(new java.awt.Color(54, 89, 129));
         btn_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-12.png"))); // NOI18N
         btn_7.setBorder(null);
         btn_7.addActionListener(new java.awt.event.ActionListener() {
@@ -168,6 +174,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 60, 60));
 
+        btn_3.setBackground(new java.awt.Color(54, 89, 129));
         btn_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-14.png"))); // NOI18N
         btn_3.setBorder(null);
         btn_3.addActionListener(new java.awt.event.ActionListener() {
@@ -177,6 +184,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 60, 60));
 
+        btn_9.setBackground(new java.awt.Color(54, 89, 129));
         btn_9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-7.png"))); // NOI18N
         btn_9.setBorder(null);
         btn_9.addActionListener(new java.awt.event.ActionListener() {
@@ -186,6 +194,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_9, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 60, 60));
 
+        btn_multiplicar.setBackground(new java.awt.Color(54, 89, 129));
         btn_multiplicar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-4.png"))); // NOI18N
         btn_multiplicar.setBorder(null);
         btn_multiplicar.addActionListener(new java.awt.event.ActionListener() {
@@ -195,6 +204,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_multiplicar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 260, 60, 60));
 
+        btn_5.setBackground(new java.awt.Color(54, 89, 129));
         btn_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-9.png"))); // NOI18N
         btn_5.setBorder(null);
         btn_5.addActionListener(new java.awt.event.ActionListener() {
@@ -204,6 +214,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(btn_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 60, 60));
 
+        btn_4.setBackground(new java.awt.Color(54, 89, 129));
         btn_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-11.png"))); // NOI18N
         btn_4.setBorder(null);
         btn_4.addActionListener(new java.awt.event.ActionListener() {
@@ -218,6 +229,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_resultado.setText("000");
         jPanel1.add(txt_resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 240, 30));
 
+        btn_dividir.setBackground(new java.awt.Color(54, 89, 129));
         btn_dividir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Extended FAB-15.png"))); // NOI18N
         btn_dividir.setBorder(null);
         btn_dividir.addActionListener(new java.awt.event.ActionListener() {
@@ -231,6 +243,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
         img_resultado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Pantallas/Text field.png"))); // NOI18N
         img_resultado.setToolTipText("");
         jPanel1.add(img_resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 260, 50));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/calculadora/Calculadora (5).png"))); // NOI18N
+        jLabel1.setOpaque(true);
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 10));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 330));
 
@@ -249,7 +265,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private static final int RESTA = 1;
     private static final int MULTIPLICACION = 2;
     private static final int DIVISION = 3;
-    
+    String numBack;
     
     private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
         this.dispose();
@@ -260,15 +276,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_limpiarActionPerformed
 
     private void btn_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_2ActionPerformed
-        txt_resultado.setText("2");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "2");
     }//GEN-LAST:event_btn_2ActionPerformed
 
     private void btn_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_6ActionPerformed
-        txt_resultado.setText("6");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "6");
     }//GEN-LAST:event_btn_6ActionPerformed
 
     private void btn_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_8ActionPerformed
-        txt_resultado.setText("8");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "8");
     }//GEN-LAST:event_btn_8ActionPerformed
 
     private void btn_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_1ActionPerformed
@@ -276,7 +295,8 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_1ActionPerformed
 
     private void btn_0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_0ActionPerformed
-        txt_resultado.setText("0");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "0");
     }//GEN-LAST:event_btn_0ActionPerformed
 
     private void btn_igualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_igualActionPerformed
@@ -293,15 +313,18 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_sumarActionPerformed
 
     private void btn_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_7ActionPerformed
-        txt_resultado.setText("7");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "7");
     }//GEN-LAST:event_btn_7ActionPerformed
 
     private void btn_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_3ActionPerformed
-        txt_resultado.setText("3");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "3");
     }//GEN-LAST:event_btn_3ActionPerformed
 
     private void btn_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_9ActionPerformed
-        txt_resultado.setText("9");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "9");
     }//GEN-LAST:event_btn_9ActionPerformed
 
     private void btn_multiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplicarActionPerformed
@@ -309,11 +332,13 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_multiplicarActionPerformed
 
     private void btn_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_5ActionPerformed
-        txt_resultado.setText("5");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "5");
     }//GEN-LAST:event_btn_5ActionPerformed
 
     private void btn_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_4ActionPerformed
-        txt_resultado.setText("4");
+        numBack = txt_resultado.getText();
+        txt_resultado.setText(numBack + "4");
     }//GEN-LAST:event_btn_4ActionPerformed
 
     private void btn_dividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_dividirActionPerformed
